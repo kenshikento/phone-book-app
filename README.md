@@ -10,3 +10,4 @@ please describe in a readme file how to run your application`
 
 Just run `php artisan serve` to use local server and do typical composer install and npm install to run local dependencies.
 
+Once u run php artisan serve it should direct to http://127.0.0.1:8000 and entry point will be there.
