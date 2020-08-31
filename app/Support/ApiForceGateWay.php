@@ -13,7 +13,7 @@ class ApiForceGateWay
      * Get the data
      * @return json
      */
-    public function getData1() : Array 
+    public function getData() : Array 
     {
         $response = Http::get(static::URL);
 
@@ -26,7 +26,7 @@ class ApiForceGateWay
         return $items;
     }
 
-    public function getData()
+    public function getData1()
     {
         $json = 
     [
